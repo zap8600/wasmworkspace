@@ -450,6 +450,9 @@ double sqrt(double); // new
 double sin(double x); // new
 double cos(double x); // new
 double floor(double x); // new
+double pow(double x, double y); // new, using Javascript pow to keep weblibc size down for initial testing
+double atan(double x); // new
+double atan2(double x, double y); // new
 
 //////////////////////////////////////////////////////////////////////////////
 // float.h
