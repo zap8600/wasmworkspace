@@ -8,9 +8,6 @@
 //
 // Please note, all SGP-Specific code is in the second part of the file.  Other features like
 // TLE reading code is in the first part.
-#ifndef _CSGP4_H
-#define _CSGP4_H
-
 #include <stdint.h>
 #include <math.h>
 #include <string.h>
@@ -444,6 +441,7 @@ CSGP4_DECORATOR int ParseString( const char * sLineSet, struct TLEObject ** obje
 			break;
 		}
 		default:
+		break;
 			// fprintf( stderr, "Unknown record type %c on line %d\n", line[0], lineno );
 		}
 	}
@@ -2873,6 +2871,3 @@ CSGP4_DECORATOR void Dumpelsetrec( struct elsetrec * obj )
 	printf( "obj.xke      = %18.15f\n", obj->xke );
 }
 */
-
-
-#endif
