@@ -1,2 +1,0 @@
-# weblibc
-A bare-bones `libc` for use with C libraries being compiled to WebAssembly. Using [the `weblibc` branch of cnlohr's rawdraw library](https://github.com/cntools/rawdraw/tree/weblibc) as a base.

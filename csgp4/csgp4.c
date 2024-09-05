@@ -32,13 +32,16 @@
 #define CSGP4_INIT 1
 #endif
 
-
 #ifndef CSGP4_DECORATOR
-#define CSGP4_DECORATOR static
+#define CSGP4_DECORATOR
 #endif
 
+#define ssize_t size_t
 
-
+// only here to satisfy WASI
+int main() {
+	return 0;
+}
 
 #if CSGP4_USE_FLOAT
 
